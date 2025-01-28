@@ -53,7 +53,7 @@ Defines the extension's permissions, scripts, and background services.
 - [Google Gemini AI API](https://ai.google.dev/) (for generating hints)
 
 ## 📷 Demo Screenshot
-(Include a screenshot of the extension in action)
+<img src='images/DemoImage.png' alt="demoImage" width=80%  />
 
 ## 📜 License
 This project is licensed under the **MIT License**.
