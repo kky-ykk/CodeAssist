@@ -1,0 +1,121 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+/* General styles for the popup */
+.popup {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  text-align: center;
+}
+
+/* Title style */
+.popup h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Problem title style */
+.popup h3 {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Hint text style */
+.popup p {
+  font-size: 14px;
+  color: #666;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-top: 15px;
+}
+
+/* Button container style */
+.btnContainer {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+/* Button styles */
+.btnContainer button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btnContainer button:hover {
+  background-color: #45a049;
+}
+
+/* Specific button colors */
+.btnContainer button:nth-child(2) {
+  background-color: #2196F3;
+}
+
+.btnContainer button:nth-child(2):hover {
+  background-color: #1e88e5;
+}
+
+.btnContainer button:nth-child(3) {
+  background-color: #f44336;
+}
+
+.btnContainer button:nth-child(3):hover {
+  background-color: #e53935;
+}
